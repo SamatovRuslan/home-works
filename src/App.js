@@ -1,18 +1,13 @@
-import './App.css';
-import React from 'react';
-import {Button} from './components/Button/Button'
-import {Counter} from './components/Count/Count'
+import "./App.css";
+import React from "react";
+import NewItem from "./components/NewItem";
 
 function App() {
-
-  return (
-    <div className="App">
-      <Counter counter="0"/>
-      <Button title="+"/>
-      <Button title='-'/>
-      <Counter/>
-    </div>
-  )
+	return (
+		<div className="App">
+			<NewItem/>
+		</div>
+	);
 }
 
 export default App;
